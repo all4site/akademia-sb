@@ -9,8 +9,6 @@ $(document).ready(function () {
 		var topOffset = $(this).scrollTop();
 		var topTop = $(this).height();
 		var element = $('#content').offset().top;
-		console.log(element);
-		console.log(topOffset);
 		if (topOffset >= element) {
 			$('.robik').addClass('robik-fixed');
 		}
